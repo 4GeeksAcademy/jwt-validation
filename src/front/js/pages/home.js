@@ -1,9 +1,8 @@
 import React, { useContext, useState, useEffect } from "react";
-import { Context } from "../store/appContext";
-import { useForm } from "../hooks/useform";
+
 import "../../styles/home.css";
 import { Link, useNavigate } from "react-router-dom";
-import { Modal, Button } from 'react-bootstrap';
+
 
 
 export const Home = () => {
@@ -11,10 +10,10 @@ export const Home = () => {
 
     return (
 
-        <div>
-
-        Welcome, go to <Link to="/login"> Login</Link>
-
+        <div className="aling-items-center">
+            <h3 className="mt-4">
+        Bienvenido a mi proyecto de validacion con JWT, debes crear un Usuario y despues hacer login, go to <Link to="/login"> Login</Link>
+        </h3>
         </div>
 
 
